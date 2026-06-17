@@ -17,7 +17,7 @@ Clone or download this repo, then copy it into your project's `.claude/skills/` 
 
 ```bash
 git clone https://github.com/GyeongjinLee/gen-exclidraw-diagram-skill.git
-cp -r gen-exclidraw-diagram-skill .claude/skills/excalidraw-diagram
+cp -r gen-exclidraw-diagram-skill .claude/skills/gen-exclidraw-diagram-skill
 ```
 
 ## Setup
@@ -31,7 +31,7 @@ Just tell your agent: *"Set up the Excalidraw diagram skill renderer by followin
 **Option B: Manual**
 
 ```bash
-cd .claude/skills/excalidraw-diagram/references
+cd .claude/skills/gen-exclidraw-diagram-skill/references
 uv sync
 uv run playwright install chromium
 ```
@@ -51,7 +51,7 @@ Edit `references/color-palette.md` to match your brand. Everything else in the s
 ## File Structure
 
 ```
-excalidraw-diagram/
+gen-exclidraw-diagram-skill/
   SKILL.md                          # Design methodology + workflow
   SKILL.ko.md                       # Korean translation of SKILL.md
   README.md                         # Setup and usage guide

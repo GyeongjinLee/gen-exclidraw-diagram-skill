@@ -17,7 +17,7 @@
 
 ```bash
 git clone https://github.com/GyeongjinLee/gen-exclidraw-diagram-skill.git
-cp -r gen-exclidraw-diagram-skill .claude/skills/excalidraw-diagram
+cp -r gen-exclidraw-diagram-skill .claude/skills/gen-exclidraw-diagram-skill
 ```
 
 ## 설정
@@ -31,7 +31,7 @@ cp -r gen-exclidraw-diagram-skill .claude/skills/excalidraw-diagram
 **옵션 B: 수동 설정**
 
 ```bash
-cd .claude/skills/excalidraw-diagram/references
+cd .claude/skills/gen-exclidraw-diagram-skill/references
 uv sync
 uv run playwright install chromium
 ```
@@ -51,7 +51,7 @@ uv run playwright install chromium
 ## 파일 구조
 
 ```
-excalidraw-diagram/
+gen-exclidraw-diagram-skill/
   SKILL.md                          # 디자인 방법론 + 워크플로우
   SKILL.ko.md                       # SKILL.md 한글 번역
   README.md                         # 설정 및 사용 가이드
