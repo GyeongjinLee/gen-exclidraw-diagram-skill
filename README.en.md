@@ -4,7 +4,7 @@
 
 A coding agent skill that generates beautiful and practical Excalidraw diagrams from natural language descriptions. Not just boxes-and-arrows - diagrams that **argue visually**.
 
-Compatible with any coding agent that supports skills. For agents that read from `.claude/skills/` (like [Claude Code](https://docs.anthropic.com/en/docs/claude-code) and [OpenCode](https://github.com/nicepkg/OpenCode)), just drop it in and go.
+Compatible with any coding agent that supports skills (such as [Codex](https://github.com/openai/codex)). For agents that read from `.claude/skills/` (like [Claude Code](https://docs.anthropic.com/en/docs/claude-code) and [OpenCode](https://github.com/nicepkg/OpenCode)), just drop it in and go.
 
 ![Example diagram: loop engineering 14-step roadmap](samples/loop-engineering-14-step-roadmap.png)
 

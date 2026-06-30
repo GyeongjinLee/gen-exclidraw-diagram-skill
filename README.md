@@ -4,7 +4,7 @@
 
 자연어 설명을 아름답고 실용적인 Excalidraw 다이어그램으로 변환하는 코딩 에이전트 스킬입니다. 단순한 박스-화살표 다이어그램이 아니라 **시각적으로 논증하는** 다이어그램을 생성합니다.
 
-스킬을 지원하는 모든 코딩 에이전트와 호환됩니다. `.claude/skills/`에서 읽는 에이전트([Claude Code](https://docs.anthropic.com/en/docs/claude-code), [OpenCode](https://github.com/nicepkg/OpenCode) 등)의 경우, 해당 디렉토리에 넣기만 하면 바로 사용할 수 있습니다.
+스킬을 지원하는 모든 코딩 에이전트([Codex](https://github.com/openai/codex) 등)와 호환됩니다. `.claude/skills/`에서 읽는 에이전트([Claude Code](https://docs.anthropic.com/en/docs/claude-code), [OpenCode](https://github.com/nicepkg/OpenCode) 등)의 경우, 해당 디렉토리에 넣기만 하면 바로 사용할 수 있습니다.
 
 ![루프 엔지니어링 14단계 로드맵 예시 다이어그램](samples/loop-engineering-14-step-roadmap.png)
 
