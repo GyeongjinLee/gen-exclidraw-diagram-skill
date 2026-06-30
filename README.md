@@ -6,6 +6,10 @@
 
 스킬을 지원하는 모든 코딩 에이전트와 호환됩니다. `.claude/skills/`에서 읽는 에이전트([Claude Code](https://docs.anthropic.com/en/docs/claude-code), [OpenCode](https://github.com/nicepkg/OpenCode) 등)의 경우, 해당 디렉토리에 넣기만 하면 바로 사용할 수 있습니다.
 
+![루프 엔지니어링 14단계 로드맵 예시 다이어그램](samples/loop-engineering-14-step-roadmap.png)
+
+> 위 다이어그램은 이 스킬로 생성한 예시 결과물입니다.
+
 ## 차별점
 
 - **표시가 아닌 논증하는 다이어그램.** 모든 도형/도형 그룹이 표현하는 개념을 반영합니다 — 일대다 관계에는 팬아웃, 순서에는 타임라인, 집계에는 수렴. 일정한 카드 그리드는 없습니다.

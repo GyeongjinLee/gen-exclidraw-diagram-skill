@@ -6,6 +6,10 @@ A coding agent skill that generates beautiful and practical Excalidraw diagrams 
 
 Compatible with any coding agent that supports skills. For agents that read from `.claude/skills/` (like [Claude Code](https://docs.anthropic.com/en/docs/claude-code) and [OpenCode](https://github.com/nicepkg/OpenCode)), just drop it in and go.
 
+![Example diagram: loop engineering 14-step roadmap](samples/loop-engineering-14-step-roadmap.png)
+
+> The diagram above is an example produced by this skill.
+
 ## What Makes This Different
 
 - **Diagrams that argue, not display.** Every shape/group of shapes mirrors the concept it represents — fan-outs for one-to-many, timelines for sequences, convergence for aggregation. No uniform card grids.
